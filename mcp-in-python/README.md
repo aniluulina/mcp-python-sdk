@@ -70,7 +70,7 @@ mcp dev server.py
 ```
 
 ## Install `server.py` on your Claude Desktop
-####If the server is running correctly and tools are properly registered, you can install it in Claude Desktop:
+#### If the server is running correctly and tools are properly registered, you can install it in Claude Desktop:
 ```bash
 mcp install server.py
 ```
