@@ -27,7 +27,7 @@ uv add "mcp[cli]"
 pip installl mcp
 ```
 
-## Create simple `server.py`
+## Create simple `mcp-server.py`
 
 ```bash
 from mcp.server.fastmcp import FastMCP
@@ -66,13 +66,13 @@ source .venv/bin/activate  #it activates the virtual env of your project
 
 ## Running Your Server via MCP Inspector
 ```bash
-mcp dev server.py
+mcp dev mcp-server.py
 ```
 
-## Install `server.py` on your Claude Desktop
+## Install `mcp-server.py` on your Claude Desktop
 #### If the server is running correctly and tools are properly registered, you can install it in Claude Desktop:
 ```bash
-mcp install server.py
+mcp install mcp-server.py
 ```
 
 ## Troubleshooting:`uv`path issue
