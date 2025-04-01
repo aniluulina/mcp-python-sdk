@@ -5,7 +5,7 @@ It allows you to spin up an MCP-compatible server, define tools and resources, a
 ---
 
 ## Installation
-###Install `uv`
+### Install `uv`
 
 #### Install the `uv` package manager recommended by the MCP documentation:
 ```bash
